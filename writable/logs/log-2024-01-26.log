@@ -1,0 +1,89 @@
+CRITICAL - 2024-01-26 07:12:50 --> ErrorException: Undefined variable $title
+in APPPATH\Views\auth\Login.php on line 6.
+ 1 APPPATH\Views\auth\Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\wamp64\\www\\test_pro\\app\\Views\\auth\\Login.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\wamp64\\www\\test_pro\\app\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/Login', [], true)
+ 5 APPPATH\Controllers\auth\Login.php(11): view('auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+CRITICAL - 2024-01-26 07:13:52 --> ErrorException: Undefined variable $title
+in APPPATH\Views\auth\Login.php on line 6.
+ 1 APPPATH\Views\auth\Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\wamp64\\www\\test_pro\\app\\Views\\auth\\Login.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\wamp64\\www\\test_pro\\app\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/Login', [], true)
+ 5 APPPATH\Controllers\auth\Login.php(11): view('auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+CRITICAL - 2024-01-26 07:20:14 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\auth\Login.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\wamp64\\www\\test_pro\\app\\Controllers\\auth\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\auth\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\auth\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\auth\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+CRITICAL - 2024-01-26 07:32:09 --> ParseError: syntax error, unexpected namespaced name "CodeIgniter\model"
+in APPPATH\Models\UsersModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\wamp64\\www\\test_pro\\app\\Models\\UsersModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsersModel')
+ 3 APPPATH\Controllers\auth\Login.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsersModel')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\auth\Login->process()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+CRITICAL - 2024-01-26 07:32:30 --> ParseError: syntax error, unexpected namespaced name "CodeIgniter\Model"
+in APPPATH\Models\UsersModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\wamp64\\www\\test_pro\\app\\Models\\UsersModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsersModel')
+ 3 APPPATH\Controllers\auth\Login.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsersModel')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\auth\Login->process()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+INFO - 2024-01-26 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-26 07:40:57 --> Error: Call to undefined function App\Controllers\auth\sesstion()
+in APPPATH\Controllers\auth\Login.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\auth\Login->process()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\auth\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+INFO - 2024-01-26 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-26 07:48:21 --> ParseError: Unclosed '(' on line 12
+in APPPATH\Config\Routes.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+CRITICAL - 2024-01-26 07:48:41 --> Error: Class "Config\App\Filters\UserFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wamp64\\www\\test_pro\\public\\index.php')
+INFO - 2024-01-26 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 08:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
